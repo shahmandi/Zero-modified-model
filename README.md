@@ -4,8 +4,8 @@ The R code is for the article "A New Algorithm for Zero-Modified Models Applied 
 There are three R files (ZMDLN.R, ZMHPL.R, and ZMWeibull.R) corresponding to the zero-modified models of the three mentioned distributions. The data used for running the R code is also provided (Data_new.xlsx). This excel file has 23 columns that each column is the citation counts relative to each Scopus subject. The list of the names of Scopus subjects is also mentioned in the R files. In the following, the different steps of the algorithm for one of the three distribution for example, discretised log-normal, are explained. For another two distributions, all steps will be the same. 
 
 
-The algorithm for fitting the zero-modified discretised log-normal has the following steps:
-1-	Reading the data and then for each subject (each colum of the excel file), the algorithm will do the following steps.
+The algorithm for fitting the zero-modified discretised log-normal has the following steps:\\
+1-	Reading the data and then for each subject (each colum of the excel file), the algorithm will do the following steps.\\
 2-	Providing the zero-modified mass probability function of discretised log-normal 
 3-	Computation of the log-likelihood function of the mentioned mass function
 4-	Using “optim” function to maximise the mentioned log-likelihood function to estimate the parameters
