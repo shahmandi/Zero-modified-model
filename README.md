@@ -12,7 +12,7 @@ The algorithm for fitting the zero-modified discretised log-normal has the follo
 
 3-	Computation of the log-likelihood function of the mentioned mass function.
 
-4-	Using “optim” function to maximise the mentioned log-likelihood function to estimate the parameters.
+4-	Using “optim” function to maximise the mentioned log-likelihood function to estimate the parameters. The **Nelder–Mead’s algorithm** was selected for the optimisation process. 
 
 5-	Extracting the estimates of parameters based on the results of **“optim”** function.
 
